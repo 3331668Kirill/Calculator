@@ -1,42 +1,45 @@
 .App {
   text-align: center;
-  background-image: url('https://cutewallpaper.org/21/website-background-images-hd/Autodesk-Wallpaper-Website-Background-Hd-Wallpapers-.jpg');
-  height: 1000px;
-  width: 100%;
-
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: center;
+  /*background-image: url('https://cutewallpaper.org/21/website-background-images-hd/Autodesk-Wallpaper-Website-Background-Hd-Wallpapers-.jpg');*/
+  height: 420px;
+  width: 300px;
+  border-radius: 15px;
+  background: black;
   color: white;
+  font-family: Arial;
+  padding: 18px;
+  box-shadow: 4px 4px 4px grey;
 }
 
-.App-link {
-  color: #61dafb;
+.btn {
+  margin: 2px;
+  width: 60px;
+  height: 60px;
+  background: slategray;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  user-select: none;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn.ac{
+  width: 80%;
+  border-radius: 34px;
+}
+
+.btn:hover{
+  filter:brightness(120%);
+}
+.btn:active{
+  filter:brightness(80%);
+}
+
+.btn.bg-grey{
+  background: darkgrey;
+}
+.btn.bg-orange{
+  background: darkorange;
 }
